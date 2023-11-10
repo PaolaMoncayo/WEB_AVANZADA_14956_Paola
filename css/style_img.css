@@ -1,0 +1,21 @@
+/* Estilos para imágenes en forma horizontal con display: inline-block; */
+  .imagenes-container {
+    text-align: center;
+  }
+
+  .imagenes-container img {
+    display: inline-block;
+    margin: 0 10px; /* Espacio entre las imágenes */
+  }
+
+  /* Estilos para imágenes en forma horizontal con display: flex; */
+  .imagenes-container-flex {
+    display: flex;
+    justify-content: center; /* Centrar las imágenes horizontalmente */
+    align-items: center; /* Centrar las imágenes verticalmente si es necesario */
+  }
+
+  .imagenes-container-flex img {
+    margin: 0 10px; /* Espacio entre las imágenes */
+  }
+
